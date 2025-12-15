@@ -1,2 +1,2 @@
-# Ex:saeed_module_1.py
+# module_1.py
 first example code for test .
