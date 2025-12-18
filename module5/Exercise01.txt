@@ -1,1 +1,104 @@
+WHAT IS AI?
+Artificial Intelligence (AI) refers to computer systems designed to perform tasks that normally require human intelligence. These tasks include learning, reasoning, problem-solving, understanding language, perception, and decision-making.
+
+WHAT IS AN LLM?
+A Large Language Model (LLM) is a type of AI model trained on vast amounts of text data to understand and generate human-like language. Examples include GPT, Claude, and LLaMA. LLMs are a subset of AI focused specifically on language tasks.
+
+
+1. WHAT IS LLM MODEL SIZE?
+Model size usually refers to the number of parameters in the model.
+- Small models: millions of parameters
+- Medium models: billions of parameters
+- Large models: tens or hundreds of billions of parameters
+
+Larger models can capture more complex patterns but require more computation, memory, and data.
+
+
+2. WHAT IS A TOKEN AND HOW DOES TOKENIZATION WORK?
+A token is a small unit of text used by LLMs. Tokens can be:
+- Words
+- Parts of words
+- Characters or symbols
+
+Tokenization is the process of breaking text into tokens.
+Example:
+"ChatGPT is useful" ["Chat", "GPT", " is", " useful"]
+
+LLMs process tokens instead of raw text.
+
+
+3. WHAT ARE PARAMETERS IN AN LLM? HOW DO THEY RELATE TO SIZE?
+Parameters are the internal numerical values (weights and biases) learned during training.
+They determine how the model processes input and generates output.
+
+- More parameters = larger model
+- More parameters generally improve performance, but increase cost and complexity
+
+
+4. WHAT IS MODEL FINE-TUNING?
+Fine-tuning is the process of taking a pre-trained LLM and further training it on a smaller, specific dataset.
+Purpose:
+- Adapt the model to a specific domain (e.g., medical, legal, coding)
+- Improve accuracy for specialized tasks
+
+
+5. WHAT IS PROMPT ENGINEERING?
+Prompt engineering is the practice of designing effective inputs (prompts) to guide the models output without changing the model itself.
+
+DIFFERENCE BETWEEN PROMPT ENGINEERING AND FINE-TUNING:
+- Prompt Engineering: No model training, fast, flexible, cheaper
+- Fine-Tuning: Requires training, more control, higher cost
+
+
+6. WHAT ARE EMBEDDINGS AND WHY ARE THEY IMPORTANT?
+Embeddings are numerical vector representations of text, images, or data.
+They capture semantic meaning.
+
+Importance:
+- Enable semantic search
+- Power recommendation systems
+- Used in RAG (Retrieval-Augmented Generation)
+- Help compare similarity between texts
+
+
+7. WHAT IS CONTEXT WINDOW OF AN LLM? WHY DOES IT MATTER?
+The context window is the maximum number of tokens an LLM can process at once (input + output).
+
+Why it matters:
+- Limits how much code or text the model can remember
+- Important for long documents and coding tasks
+- Larger context = better understanding of long conversations or files
+
+
+8. WHAT ARE LLM HALLUCINATIONS? WHAT ARE LIMITATIONS OF LLMs?
+Hallucinations occur when an LLM generates incorrect or made-up information confidently.
+
+Limitations:
+- Can produce false information
+- No real-world understanding
+- Sensitive to prompt wording
+- Limited by training data
+- Cannot reason perfectly like humans
+
+
+9. HOW CAN LLMs INTERACT WITH COMPUTERS? WHAT IS RAG?
+LLMs interact with computers using:
+- APIs
+- Tools and function calling
+- Agents
+- Plugins and automation scripts
+
+RAG (Retrieval-Augmented Generation):
+A technique where LLMs retrieve information from external databases or documents before generating answers.
+Benefits:
+- Reduces hallucinations
+- Uses up-to-date and private data
+- Improves accuracy
+
+
+10. THREE BEST FRAMEWORKS TO START CODING WITH LLMs
+1. LangChain Popular framework for building LLM applications and agents
+2. LlamaIndex Best for document indexing and RAG-based applications
+3. Hugging Face Transformers  Powerful library for training and deploying LLMs
+
 
